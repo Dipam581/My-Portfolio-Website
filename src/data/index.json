@@ -1,0 +1,86 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "public copy/img/python.png",
+      "title": "Python",
+      "description": "Proficient in Python, with extensive experience in developing scalable applications, scripting, and data analysis. Utilized Python for backend development, automation tasks, and integrating with various APIs."
+    },
+    {
+      "id": "2",
+      "src": "public copy/img/django.jpg",
+      "title": "Django",
+      "description": "Experienced in Django for building robust web applications. Expertise in creating and managing complex databases, implementing authentication systems, and optimizing performance using Django’s features."
+    },
+    {
+      "id": "3",
+      "src": "public copy/img/feather-pen-2.png",
+      "title": "Back-End Development",
+      "description": "Skilled in back-end development with a focus on server-side logic, API design, and database management. Adept at using various frameworks and technologies to create efficient and maintainable server-side solutions."
+    },
+    {
+      "id": "4",
+      "src": "public copy/img/ml.png",
+      "title": "Machine Learning",
+      "description": "Experienced in applying machine learning algorithms to solve complex problems. Proficient in using libraries such as scikit-learn and TensorFlow for predictive modeling, classification, and data analysis."
+    },
+    {
+      "id": "5",
+      "src": "public copy/img/js.png",
+      "title": "JavaScript",
+      "description": "Advanced knowledge of JavaScript for both client-side and server-side programming. Skilled in building interactive web applications, working with frameworks like React and Node.js, and optimizing code for performance."
+    },
+    {
+      "id": "6",
+      "src": "public copy/img/ai.png",
+      "title": "Artificial Intelligence",
+      "description": "Expertise in AI technologies, including neural networks and natural language processing. Experience in developing AI models to enhance user experiences, automate tasks, and provide intelligent insights."
+    },
+    {
+      "id": "7",
+      "src": "public copy/img/llm.png",
+      "title": "Large Language Models",
+      "description": "Proficient in working with large language models for natural language understanding and generation. Experience in fine-tuning models for specific tasks and integrating them into applications to enhance user interaction."
+    },
+    {
+      "id": "8",
+      "src": "public copy/img/product-chain-1.png",
+      "title": "Frontend Development",
+      "description": "Experienced in front-end development, including creating responsive and user-friendly interfaces. Skilled in HTML, CSS, JavaScript, and frameworks like React to deliver seamless user experiences across various devices."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "public copy/img/tradesquare.png",
+      "title": "Trade Square",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/Dipam581/TradeSquare"
+    },
+    {
+      "id": "2",
+      "src": "public copy/img/placeholder-image-1.png",
+      "title": "Job Nexus Hub",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/Dipam581/Job-Nexus-Hub"
+    },
+    {
+      "id": "3",
+      "src": "public copy/img/smartAttendance.png",
+      "title": "Smart Attendance System using Face Detection",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/Dipam581/Smart-Attendance-System-using-Face-Detection"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "designation": "Software Engineer", 
+      "duration": "Jan 2023 - Present",
+      "description": "Developed and implemented reusable python code to enhance efficiency and maintainability across all products and python's modular capabilities. Enhanced server-side rendering and report generation efficiency, reducing download time by over 67% through server-side caching, chunked data fetching, and leveraging a lighter Excel backend. Engaged in technical analyses and played a pivotal role in API design discussions using python frameworks, ensuring the development of secure and seamless integrations with backend systems. Actively collaborated with the backend team to architect and implement robust integration solutions. Provided ongoing support, troubleshooting, and implemented enhancements and optimizations to ensure smooth operation and address evolving business needs of the live project",
+      "comapny_name": "KEROSS RESEARCH AND DEVELOPMENT CENTER PRIVATE LIMITED",
+      "skills": "Python, Django, ML, Javascript, React.js, Java, HTML, CSS",
+      "img": "public copy/img/keross.png"
+    }
+  ]
+}
