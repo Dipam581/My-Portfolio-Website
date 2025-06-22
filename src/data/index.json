@@ -1,85 +1,143 @@
 {
   "skills": [
-    {
-      "id": "1",
-      "src": "public copy/img/python.png",
-      "title": "Python",
-      "description": "Proficient in Python, with extensive experience in developing scalable applications, scripting, and data analysis. Utilized Python for backend development, automation tasks, and integrating with various APIs."
-    },
-    {
-      "id": "2",
-      "src": "public copy/img/django.jpg",
-      "title": "Django",
-      "description": "Experienced in Django for building robust web applications. Expertise in creating and managing complex databases, implementing authentication systems, and optimizing performance using Django’s features."
-    },
-    {
-      "id": "3",
-      "src": "public copy/img/feather-pen-2.png",
-      "title": "Back-End Development",
-      "description": "Skilled in back-end development with a focus on server-side logic, API design, and database management. Adept at using various frameworks and technologies to create efficient and maintainable server-side solutions."
-    },
-    {
-      "id": "4",
-      "src": "public copy/img/ml.png",
-      "title": "Machine Learning",
-      "description": "Experienced in applying machine learning algorithms to solve complex problems. Proficient in using libraries such as scikit-learn and TensorFlow for predictive modeling, classification, and data analysis."
-    },
-    {
-      "id": "5",
-      "src": "public copy/img/js.png",
-      "title": "JavaScript",
-      "description": "Advanced knowledge of JavaScript for both client-side and server-side programming. Skilled in building interactive web applications, working with frameworks like React and Node.js, and optimizing code for performance."
-    },
-    {
-      "id": "6",
-      "src": "public copy/img/ai.png",
-      "title": "Artificial Intelligence",
-      "description": "Expertise in AI technologies, including neural networks and natural language processing. Experience in developing AI models to enhance user experiences, automate tasks, and provide intelligent insights."
-    },
-    {
-      "id": "7",
-      "src": "public copy/img/llm.png",
-      "title": "Large Language Models",
-      "description": "Proficient in working with large language models for natural language understanding and generation. Experience in fine-tuning models for specific tasks and integrating them into applications to enhance user interaction."
-    },
-    {
-      "id": "8",
-      "src": "public copy/img/product-chain-1.png",
-      "title": "Frontend Development",
-      "description": "Experienced in front-end development, including creating responsive and user-friendly interfaces. Skilled in HTML, CSS, JavaScript, and frameworks like React to deliver seamless user experiences across various devices."
-    }
-  ],
+      {
+        "id": "1",
+        "title": "Python",
+        "src": "public copy/img/python.png",
+        "proficiency": "Expert",
+        "experience_years": 2,
+        "description": "Harnessed Python's rich ecosystem to build ETL pipelines, production-grade ML services, and automated data workflows processing over 1M records daily."
+      },
+      {
+        "id": "7",
+        "title": "Python Web Frameworks",
+        "src": "public copy/img/python-web-frameworks.jpg",
+        "proficiency": "Advanced",
+        "experience_years": 2,
+        "description": "Mastered Django, Flask, and FastAPI to build scalable, high-performance backends: architected RESTful APIs and complex ORM schemas, integrated Celery for asynchronous workloads."
+
+      },
+
+      {
+        "id": "2",
+        "title": "SQL",
+        "src": "public copy/img/sql.jpg",
+        "proficiency": "Expert",
+        "experience_years": 2,
+        "description": "Designed complex SQL queries and optimized database schemas in PostgreSQL, improving query performance by 50% on large datasets."
+      },
+      {
+        "id": "3",
+        "title": "Machine Learning",
+        "src": "public copy/img/ml.png",
+        "proficiency": "Expert",
+        "experience_years": 2,
+        "description": "Deployed end-to-end ML pipelines using scikit-learn and TensorFlow; achieved 92% classification accuracy and cut inference latency by 40%."
+      },
+      {
+        "id": "8",
+        "title": "Deep Learning",
+        "src": "public copy/img/deep_learning.jpg",
+        "proficiency": "Advanced",
+        "experience_years": 1,
+        "description": "Built CNNs and RNNs with Tensorflow, Keras and PyTorch for image classification and time-series forecasting, achieving state-of-the-art results on benchmark datasets."
+      },
+      {
+        "id": "9",
+        "title": "Data Engineering",
+        "src": "public copy/img/data_engineering.jpg",
+        "proficiency": "Advanced",
+        "experience_years": 2,
+        "description": "Engineered data pipelines using Apache Airflow and Spark, processing terabytes of data daily with optimized ETL workflows."
+      },
+      {
+        "id": "4",
+        "title": "Artificial Intelligence",
+        "src": "public copy/img/ai.png",
+        "proficiency": "Advanced",
+        "experience_years": 2,
+        "description": "Engineered NLP models for sentiment analysis and document summarization, increasing processing throughput by 3x."
+      },
+      {
+        "id": "6",
+        "title": "Large Language Models",
+        "src": "public copy/img/llm.png",
+        "proficiency": "Advanced",
+        "experience_years": 1,
+        "description": "Fine-tuned GPT-3.5, LLaMA, and Mistral models on domain-specific data, reducing perplexity by 25% and improving Q&A relevance."
+      },
+      
+      {
+        "id": "10",
+        "title": "Data Visualization",
+        "src": "public copy/img/dataviz.png",
+        "proficiency": "Advanced",
+        "experience_years": 2,
+        "description": "Crafted insightful dashboards and reports with Tableau and Matplotlib, enabling stakeholders to make data-driven decisions."
+      },
+      {
+        "id": "11",
+        "title": "Cloud & MLOps",
+        "src": "public copy/img/cloud_mlops.png",
+        "proficiency": "Intermediate",
+        "experience_years": 1,
+        "description": "Deployed scalable ML services on AWS (S3, SageMaker, Lambda) and implemented CI/CD pipelines using GitHub Actions and Docker."
+      },
+      {
+        "id": 5,
+        "title": "Generative AI",
+        "src": "public copy/img/generative_ai.jpg",
+        "proficiency": "Intermediate",
+        "experience_years": 1,
+        "description": "Created RAG-based systems and Utilized OpenAI's GPT-4 models for text generation, summarization, and translation, enhancing productivity and accuracy in content creation."
+      }
+      
+    ],
+
   "portfolio": [
     {
       "id": "1",
-      "src": "public copy/img/tradesquare.png",
-      "title": "Trade Square",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "https://github.com/Dipam581/TradeSquare"
+      "src": "public copy/img/aicruit.png",
+      "title": "AIcruit - Smart Interviewing System",
+      "description": "An interactive AI-powered interview simulator that converts voice input to text using AssemblyAI, processes responses through a fine-tuned Mistral AI model via LangChain, and transforms output back into speech with Amazon Polly. Fully automated workflows and deployments are managed via GitHub Actions and Docker. ",
+      "link": "https://github.com/Dipam581/AIcruit-Smart-Interviewing-System"
     },
     {
       "id": "2",
-      "src": "public copy/img/placeholder-image-1.png",
-      "title": "Job Nexus Hub",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "https://github.com/Dipam581/Job-Nexus-Hub"
+      "src": "public copy/img/speech-emotion-detection.png",
+      "title": "Speech Emotion Detection System",
+      "description": "A Flask-based web application that extracts MFCC features from uploaded audio files and predicts emotional tone using a pre-trained ML model. Includes a user-friendly interface built with HTML/CSS for uploading audio and visualizing real-time emotion detection results.",
+      "link": "https://github.com/Dipam581/Speech-Emotion-Detection"
     },
     {
       "id": "3",
       "src": "public copy/img/smartAttendance.png",
       "title": "Smart Attendance System using Face Detection",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Developed a real-time attendance tracking system leveraging computer vision and face recognition. Utilized OpenCV and face_recognition libraries to detect and identify individuals from a live video feed. Implemented automated logging of attendance data to reduce manual intervention and eliminate proxy attendance. Achieved 98% recognition accuracy under varying lighting conditions.",
       "link": "https://github.com/Dipam581/Smart-Attendance-System-using-Face-Detection"
     }
   ],
+
   "testimonial": [
     {
       "id": "1",
-      "designation": "Software Engineer", 
+      "designation": "Software Engineer & AI/ML Associate",
       "duration": "Jan 2023 - Present",
-      "description": "Developed and implemented reusable python code to enhance efficiency and maintainability across all products and python's modular capabilities. Enhanced server-side rendering and report generation efficiency, reducing download time by over 67% through server-side caching, chunked data fetching, and leveraging a lighter Excel backend. Engaged in technical analyses and played a pivotal role in API design discussions using python frameworks, ensuring the development of secure and seamless integrations with backend systems. Actively collaborated with the backend team to architect and implement robust integration solutions. Provided ongoing support, troubleshooting, and implemented enhancements and optimizations to ensure smooth operation and address evolving business needs of the live project",
-      "comapny_name": "KEROSS RESEARCH AND DEVELOPMENT CENTER PRIVATE LIMITED",
-      "skills": "Python, Django, ML, Javascript, React.js, Java, HTML, CSS",
+      "company_name": "Keross Research and Development Center Private Limited",
+      "description": "• Architected and deployed Python-driven AI solutions using OpenAI GPT and custom LLMs to automate SAP managed-service workflows, reducing manual intervention by 40%.\n• Developed conversational bots with AWS Lex and Amazon Polly (integrated via AWS Connect for IVR), boosting self-service capabilities.\n• Optimized server-side rendering and report generation, cutting download times by 67% through caching, chunked data fetching, and a lightweight Excel backend.\n• Integrated AI models into SAP workflows via RESTful and GraphQL APIs for automated ticket classification and proactive issue resolution.\n• Collaborated on prompt engineering, RAG architecture, and embedding strategies in Agile scrums, shaping enterprise AI roadmaps.\n• Monitored and optimized model performance using MLflow and custom dashboards to track latency, accuracy, and drift metrics.",
+      "skills": [
+        "Python",
+        "OpenAI GPT",
+        "LangChain",
+        "AWS Lex",
+        "Amazon Polly",
+        "REST & GraphQL APIs",
+        "TensorFlow",
+        "MLflow",
+        "Docker",
+        "Kubernetes",
+        "Apache Airflow"
+      ],
       "img": "public copy/img/keross.png"
     }
   ]
