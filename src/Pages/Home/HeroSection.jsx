@@ -1,24 +1,28 @@
+import React from 'react';
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm Dipam</p>
+          <p className="section--title">Hello, I'm Dipam Ghosh</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Software</span>{" "}
+            <span className="hero--section-title--color">Software</span> Engineer
             <br />
-            Engineer
+            & Data Science Enthusiast
           </h1>
           <p className="hero--section-description">
-            I bring 1.8 years of experience as a software engineer at Keross R&D in Kolkata.
-            <br /> Passionate about programming and development.
+            Officially, I work as a Software Engineer at Keross R&D in Kolkata,
+            <br />
+            but my true passion lies in Data Science, Machine Learning, and AI.
+            <br />
+            I love turning data into insights and building intelligent systems.
           </p>
-
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary">Let’s Collaborate</button>
       </div>
       <div className="hero--section--img">
-        <img src="public copy/img/myImg.jpg" alt="Hero Section" />
+        <img src="/img/myImg.jpg" alt="Dipam Ghosh Portrait" />
       </div>
     </section>
   );
